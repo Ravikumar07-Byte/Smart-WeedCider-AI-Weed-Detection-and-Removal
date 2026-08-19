@@ -1,0 +1,16 @@
+node_modules
+dist
+dist-ssr
+.git
+.vercel
+.venv
+__pycache__
+
+# Raw ML artifacts are for local/backend use and should not be uploaded to Vercel.
+*.pt
+/detect/
+/train/
+/valid/
+/test/
+history.json
+metrics.json

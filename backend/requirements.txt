@@ -1,0 +1,9 @@
+Flask==3.0.3
+flask-cors==4.0.1
+gunicorn==22.0.0
+Pillow>=11.3,<13
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy>=1.26,<2
+torch==2.3.1+cpu; platform_system == "Linux"
+torchvision==0.18.1+cpu; platform_system == "Linux"
+ultralytics==8.3.40
